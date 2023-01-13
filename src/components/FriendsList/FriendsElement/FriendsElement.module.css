@@ -1,0 +1,40 @@
+.span {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    background-color: red;
+    border-radius: 50%;
+    box-shadow: red 0px 5px 15px;
+
+    transition: box-shadow 250ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+}
+.span:hover, .span:focus {
+    box-shadow: black 0px 5px 15px;
+}
+.isOnline {
+    background-color: green;
+    box-shadow: green 0px 5px 15px;
+}
+.pic {
+    max-height: 48px;
+    border-radius: 10px;
+
+    transition: box-shadow 250ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+}
+.pic:hover, .pic:focus {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+  
+.text {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+
+  transition: color 250ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.text:hover, text:focus {
+    color: black;
+}

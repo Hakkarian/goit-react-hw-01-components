@@ -1,0 +1,43 @@
+.table {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: box-shadow 250ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+}
+.table:hover, .table:focus {
+    box-shadow: rgba(125, 255, 245, 0.81) 0px 5px 15px;
+}
+
+.link {
+    display: contents;
+}
+.row {
+transition: box-shadow 250ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+}
+.row:hover, .row:focus {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.part {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    width: 160px;
+    height: 40px;
+    background-color: white;
+
+    transition: box-shadow 250ms cubic-bezier(0.175, 0.885, 0.32, 1.275), color 250ms cubic-bezier(0.175, 0.885, 0.32, 1.275), background-color 250ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+}
+.part:hover, .part:focus {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgba(125, 255, 245, 0.81);
+    color: white;
+}
+
+.head {
+    background-color: rgb(0, 186, 124);
+    color: white;
+}
