@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { ProfileElementCss, ProfileImgWrapCss, ProfileNameCss, ProfileImgCss, ProfileInfoCss } from "./ProfileElement.styled";
+import { ProfileElementCss, ProfileNameCss, ProfileImgCss, ProfileInfoCss } from "./ProfileElement.styled";
 
 const ProfileElement = ({avatar, username, tag, location}) => {
     return (
@@ -13,10 +13,10 @@ const ProfileElement = ({avatar, username, tag, location}) => {
 }
 
 ProfileElement.propTypes = {
-    avatar: PropTypes.string,
-    username: PropTypes.string,
-    tag: PropTypes.string,
-    location: PropTypes.string,
+    avatar: PropTypes.string.isRequired,
+    username: PropTypes.string.isRequired,
+    tag: PropTypes.string.isRequired,
+    location: PropTypes.string.isRequired,
 }
 
 export default ProfileElement;

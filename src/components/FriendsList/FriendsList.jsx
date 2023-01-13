@@ -2,17 +2,15 @@ import PropTypes from 'prop-types';
 import FriendsElement from './FriendsElement';
 import css from './FriendsList.module.css';
 
-const FriendsList = ({ items }) => {
+const FriendsList = ({ friends }) => {
     return <section>
-    <a href='/'>
     <ul className={css.list}>
-        {items.map(friend => <li className={css.element} key={friend.id}>
+        {friends.map(friend => <li className={css.element} key={friend.id}>
             <FriendsElement avatar={friend.avatar}
             name={friend.name}
                 isOnline={friend.isOnline} />
     </li>)}
         </ul>
-        </a>
         </section>
 }
 FriendsList.propTypes = {

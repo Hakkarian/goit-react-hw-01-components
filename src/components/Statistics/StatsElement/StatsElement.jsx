@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types'
-import { StatsElementCss, StatsSpanCss } from './StatsElement.styled';
+import { StatsSpanCss } from './StatsElement.styled';
 
 const StatsElement = ({ label, percentage }) => {
     return (
       <>
             <StatsSpanCss>{label}</StatsSpanCss>
-            <StatsSpanCss>{percentage}</StatsSpanCss>
+            <StatsSpanCss>{percentage}%</StatsSpanCss>
       </>
     );
 }

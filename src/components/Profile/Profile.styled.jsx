@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 
-export const ProfileCardCss = styled.section`
+export const ProfileCss = styled.section`
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
@@ -11,8 +11,8 @@ export const ProfileCardCss = styled.section`
   border-radius: ${({ theme }) => theme.spacing(4)}px;
   background-color: ${({ theme }) => theme.colors.white};
 
-  transition: box-shadow 250ms ${({ theme }) =>
-    theme.utils.cubicB}, border 250ms ${({ theme }) => theme.utils.cubicB};
+  transition: box-shadow 250ms ${({ theme }) => theme.utils.cubicB},
+    border 250ms ${({ theme }) => theme.utils.cubicB};
 
   &:hover,
   &:focus {
@@ -22,9 +22,8 @@ export const ProfileCardCss = styled.section`
 `;
 
 export const ProfileListCss = styled.ul`
-display: flex;
-
-`
+  display: flex;
+`;
 
 export const ProfileLiCss = styled.li`
   display: flex;

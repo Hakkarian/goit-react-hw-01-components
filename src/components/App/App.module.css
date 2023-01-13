@@ -30,7 +30,8 @@ li {
 
 .flex {
     display: flex;
+    justify-content: space-between;
     align-items: flex-start;
-    gap: 30px;
-    margin: 30px 0
+    flex-wrap: wrap;
+
 }
